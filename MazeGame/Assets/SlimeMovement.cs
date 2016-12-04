@@ -30,7 +30,7 @@ public class SlimeMovement : MonoBehaviour {
 			}
 
 			rb.AddForce(new Vector3(comp, Mathf.Abs(comp), comp*Random.Range(0.0f,2f)), ForceMode.Impulse);
-			}
 		}
 	}
+}
 
