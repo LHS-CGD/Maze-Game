@@ -7,7 +7,7 @@ public class HealthScript : MonoBehaviour {
 	public int health = 100;
 	private Vector3 startPosition;
 	public GameObject healthText;
-	public Text text;
+	 Text text;
 
 	// Use this for initialization
 	void Start () {
