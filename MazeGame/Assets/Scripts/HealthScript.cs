@@ -21,17 +21,17 @@ public class HealthScript : MonoBehaviour {
 		
 	}
 
-	// void OnCollisionEnter(Collision collider){
-	// 	Debug.Log(collider.gameObject.name);
-	// 	if (collider.gameObject.name.Equals ("slime")) {
-	// 		health -= 10;
-	// 		text.text = health.ToString ();
-	// 	}
-	// 	if (health <= 0) {
-	// 		this.transform.position = startPosition;
-	// 		health = 100;
-	// 		text.text = health.ToString ();
-	// 	}
+	 void OnCollisionEnter(Collision collider){
+	 	Debug.Log(collider.gameObject.name);
+	 	if (collider.gameObject.name.Equals ("slime")) {
+	 		health -= 10;
+	 		text.text = health.ToString ();
+	 	}
+	 	if (health <= 0) {
+	 		this.transform.position = startPosition;
+	 		health = 100;
+	 		text.text = health.ToString ();
+	 	}
 			
-	// }
+	 }
 }
